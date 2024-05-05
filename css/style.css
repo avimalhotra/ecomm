@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
 *,::before,::after{ margin: 0; box-sizing: border-box;}
 a{ text-decoration: none;}
 button{ padding: 0; cursor: pointer;}
@@ -126,7 +125,6 @@ footer hr{ border: none; border-bottom: 1px solid #535353; margin: 85px 0 40px;}
 }
 
 
-
 @media screen and (max-width:1220px){
     html{ font-size: 13px;}
     nav a, .social a{ padding: 0 5px;}
@@ -197,9 +195,4 @@ footer hr{ border: none; border-bottom: 1px solid #535353; margin: 85px 0 40px;}
     .caption h2{ font-size: 22px;}
     .brands{ grid-template-columns: repeat(2, 1fr);}
     .payments{ margin-top: 20px; float: none;}
-}
-
-
-@media screen and (max-width:359px){
-
 }
