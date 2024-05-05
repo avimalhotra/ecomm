@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
 *,::before,::after{ margin: 0; box-sizing: border-box;}
 a{ text-decoration: none;}
 button{ padding: 0; cursor: pointer;}
@@ -50,7 +50,7 @@ body{
 
 
 
-.wrap-1{ background: url(../img/bg-1.webp) no-repeat center/cover; color: #fff;  }
+.wrap-1{ background: url(../img/bg-1.webp) no-repeat center/cover #016799; color: #fff;  }
 header{ background: #212121bf; line-height: 74px; border-bottom: var(--hb); position: sticky; top: 0; z-index: 10;}
 h1{ font-size: 34px; border-right: var(--hb); padding: 0 20px; }
 header a{ color: inherit;}
@@ -78,7 +78,7 @@ nav a{ padding: 0 15px; font-size: 13px; display: block;}
 .services .col{ background: #fff; padding: 50px; }
 .services span.fa{ font-size: 24px; color: #5c5c5c;}
 .services h3{font-size: 24px; font-weight: 600; color: #0d2e57; line-height: 27px;}
-.services p{font-size: 13px; color: #8a8a8a; line-height: 24px;}
+.services p{font-size: 13px; color: #666; line-height: 24px;}
 .services a{font-size: 13px; font-weight: 600; color: #3753da; line-height: 24px;}
 .offer-of-day{ display: grid; grid-template-columns: repeat(2, 1fr); background: #f2f0f0; margin: 0 -1rem; text-align: center;}
 .timer{ display: flex; justify-content: center; margin-bottom: 50px; }
@@ -89,7 +89,7 @@ nav a{ padding: 0 15px; font-size: 13px; display: block;}
 .offer-of-day .col:first-child{ display: grid; place-items: center;}
 .offer{ margin: 20px 60px;}
 .offer-of-day h2{ font-size: 32px; font-weight: 600; color: #0d2e57; line-height: 40px;}
-.offer-of-day p{font-size: 13px; color: #8a8a8a; line-height: 24px;}
+.offer-of-day p{font-size: 13px; color: #666; line-height: 24px;}
 .products-gallery{ display: grid; margin: 0 -1rem; grid-template-columns: repeat(4, 1fr); text-align: center; gap: 1px; background: #5c5c5c; }
 .products{ text-align: center;  background: #fff; position: relative; }
 .products h2{ font-size: 36px;}
